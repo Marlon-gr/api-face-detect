@@ -8,7 +8,7 @@
 </p>
 
 
-Sauron Face Detect API
+Face Detect API
 =====================
 
 Detect faces from an image in base64. Receives one image in base64 and check if has faces or not.
@@ -25,7 +25,7 @@ Installation
 
 ```bash
 $ sudo mkdir /var/log/sauron  # creates sauron logging folder
-$ sudo chown $USER:$USER /var/log/sauron  # give sauron logging folder group permissions
+$ sudo chown $USER:$USER /var/log # give sauron logging folder group permissions
 $ pip install -e .
 ```
 
